@@ -1,0 +1,10 @@
+langchain
+fastapi
+langgraph
+langchain-ollama
+langchain-community
+tavily-python
+langchain-google-vertexai
+google-cloud-aiplatform
+langchain-google-vertexai==0.0.5
+python-dotenv==1.0.1
