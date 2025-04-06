@@ -2,8 +2,8 @@ from fastapi import FastAPI, UploadFile, File, HTTPException
 from typing import Literal
 import pandas as pd
 import json
-from database import db  
-from agent import process_data  
+from src.database import db
+from src.agents.agent import process_data
 
 app = FastAPI()
 
